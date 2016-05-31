@@ -1,30 +1,23 @@
+# php-getting-started
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
 
+This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
 
-Hi there! Welcome to Cloud9 IDE!
+## Deploying
 
-To get you started, we have created a small hello world application.
+Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
-1) Open the hello-world.php file
+```sh
+$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
+$ cd php-getting-started
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
 
-2) Follow the run instructions in the file's comments
+## Documentation
 
-3) If you want to look at the Apache logs, check out ~/lib/apache2/log
+For more information about using PHP on Heroku, see these Dev Center articles:
 
-And that's all there is to it! Just have fun. Go ahead and edit the code, 
-or add new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
